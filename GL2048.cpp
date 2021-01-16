@@ -1,4 +1,4 @@
-﻿/*FDS MINI PROJECT for SEMESTER 3
+﻿ /*FDS MINI PROJECT for SEMESTER 3
     2048 Game using Linked List and Open Graphics Library
 Submitted by:
     1) Navneet Das (3231 SE Comp-A)
@@ -7,11 +7,13 @@ Submitted by:
 
 //Add the <windows.h> header file if you are operating on Windows
 
+
+#include <GL/glut.h>
 #include <iostream>
-#include<GL/glut.h>
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 #include <bits/stdc++.h>
 #include <cstdlib>
 #include <iomanip>
@@ -548,7 +550,7 @@ void display(){
         drawtext(55,260,GLUT_BITMAP_TIMES_ROMAN_24,"*********************************");
         glFlush();
         glutSwapBuffers();
-        Sleep(5000);
+        sleep(5000);
         exit(0);
       }
 
@@ -566,7 +568,7 @@ void display(){
         drawtext(55,260,GLUT_BITMAP_TIMES_ROMAN_24,"*********************************");
         glFlush();
         glutSwapBuffers();
-        Sleep(5000);
+        sleep(5000);
         exit(0);
       }
 
