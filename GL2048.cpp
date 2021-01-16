@@ -4,7 +4,9 @@ Submitted by:
     1) Navneet Das (3231 SE Comp-A)
     2) Madhukar    (3224 SE Comp-A)
 */
-#include<windows.h>//Comment out if you aren't on windows
+
+//Add the <windows.h> header file if you are operating on Windows
+
 #include <iostream>
 #include<GL/glut.h>
 #include<stdio.h>
