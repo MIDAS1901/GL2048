@@ -15,7 +15,7 @@ Here's a preview of our project.
 # Instructions for Installation
 Make sure that your OS has OpenGL installed. Navigate your terminal to the directory where you've downloaded the project. Compile and execute the game using the following commands:
 
-`[g++ sunrise_sunset.cpp -lGL -lGLU -lglut]`
+`[g++ GL2048.cpp -lGL -lGLU -lglut]`
 
 `[./a.out]`
 
