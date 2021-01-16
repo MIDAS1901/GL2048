@@ -1,7 +1,7 @@
 # GL2048
 A replica of the extremely famous 2048 game made using Linked Lists and Open Graphics Library. It's entirely coded in C++.
 
-We also implemented an optimal algorithm for the next move which makes sure the user, if he/she chooses to apply it, will attain the maximum score(if game ends in a loss) and maybe even win the game which depends upon how early the user sarted to utilize this feature after starting the game.
+We also implemented an optimal algorithm for the next move which makes sure the user, if he/she chooses to apply it, will attain the maximum score(if game ends in a loss) and maybe even win the game which depends on how early the user sarted to utilize this feature after starting the game.
 
 Contributors: [Navneet Das](https://github.com/MIDAS1901)  [Madhukar](https://github.com/snailsgit)
 
