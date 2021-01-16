@@ -9,6 +9,9 @@ This was made for the partial fulfilment of the requirement of an academic proje
 
 Here's a preview of our project.
 
+![GL2048gif](https://user-images.githubusercontent.com/62807226/104819565-413dd300-5854-11eb-887b-2a6736fcea99.gif)
+
+
 # Instructions for Installation
 Make sure that your OS has OpenGL installed. Navigate your terminal to the directory where you've downloaded the project. Compile and execute the game using the following commands:
 
