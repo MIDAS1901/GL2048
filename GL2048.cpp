@@ -17,7 +17,6 @@ Submitted by:
 #include <time.h>
 #include <unistd.h>//for windows you can remove this header file.
 
-
 #define GAME_W0N 1
 #define GAME_LOST 2
 #define GAME_NOT_OVER 0
@@ -784,9 +783,9 @@ int main(int argc, char **argv){
         <<"4. USE THE I key to access the Optimal Algorithm for attaining a maximum score(even win too).\n"
         <<"5. USE THE X key to exit the game.\n"
         <<"6. USE THE Right Mouse Button to access the menu and perform the above functions just using mouse.\n";
-	glutCreateWindow("2048 by Navneet and Madhukar");
+	glutCreateWindow("GL2048 by Navneet and Madhukar");
 	createmenu();
-    init();
+    	init();
 	glutDisplayFunc(display);
 	glutKeyboardFunc(keyboard);
  	glutMainLoop();
