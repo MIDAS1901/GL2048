@@ -7,17 +7,17 @@ Submitted by:
 
 //Add the <windows.h> header file if you are operating on Windows
 
-
 #include <GL/glut.h>
 #include <iostream>
+#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <bits/stdc++.h>
 #include <cstdlib>
 #include <iomanip>
 #include <time.h>
+#include <unistd.h>//for windows you can remove this header file.
+
+
 #define GAME_W0N 1
 #define GAME_LOST 2
 #define GAME_NOT_OVER 0
